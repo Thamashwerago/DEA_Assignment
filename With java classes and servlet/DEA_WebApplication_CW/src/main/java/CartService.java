@@ -1,7 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
 
-
 public class CartService {
   private List<OrderItem> cartItems = new ArrayList<>();
 

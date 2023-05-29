@@ -19,11 +19,14 @@ public void init() throws ServletException {
 protected void doPost(HttpServletRequest request, HttpServletResponse response)
 	    throws ServletException, IOException {
 	    String action = request.getParameter("action");
+	    
 	    if (action != null && action.equals("removeFromCart")) {
 	        // Retrieve the title parameter and remove the item from the cart
 	        String title = request.getParameter("title");
+	        
 	        if (title != null && !title.isEmpty()) {
 	            HttpSession session = request.getSession();
+	            
 	            List<OrderItem> cartItems = (List<OrderItem>) session.getAttribute("cartItems");
 	            if (cartItems != null) {
 	                // Find the item with the matching title and remove it from the cart
