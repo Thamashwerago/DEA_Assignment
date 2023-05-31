@@ -1,0 +1,24 @@
+SMAP
+admin_002dview_002dcustomers_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin-view-customers.jsp
+admin-view-customers.jsp
+*L
+1,24:46
+26,2:72
+27:74
+28:75,3
+29,26:78
+55,5:105
+59,3:110
+62,7:113,3
+69,3:134
+72,2:138
+73,9:140
+82:149,3
+83,4:152
+87,4:157
+90,3:161
+*E
